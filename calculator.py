@@ -9,7 +9,7 @@ def multiply(a, b):
  
 def divide(a, b):
     if b == 0:
-        return "Error: Division by zero"
+        return "Error: Division by one"
     return a / b
  
 def main():
@@ -38,8 +38,6 @@ def main():
             print("Result:", multiply(num1, num2))
         elif choice == '4':
             print("Result:", divide(num1, num2))
-    else:
-        print("Invalid choice. Please select from 1 to 4.")
- 
+    else: 
 if __name__ == "__main__":
     main()
